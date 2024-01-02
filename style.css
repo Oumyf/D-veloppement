@@ -95,3 +95,29 @@ nav li:last-child a {
     color: white; /* Couleur blanche pour le texte "Contact" */
 }
 
+.section3{
+    display: flex;
+    margin-right: 10vh;
+    margin-left: 30vh;
+    background-color:#fdf7f8;
+}
+.section3 img{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 1px;
+    width: 35%;
+    border-radius: 30Px;
+
+}
+.texte_numerique{
+    margin-top: 1px;
+    line-height: 1.95;
+    font-weight: bolder;
+    width: 35%;
+}
+.texte_numerique h1{
+    color: #ee1d48;
+}
+.section3 img{
+    height: 500px;
+}
