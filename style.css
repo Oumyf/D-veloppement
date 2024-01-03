@@ -230,3 +230,30 @@ hr{
 #formateur1{
     margin-right: 50px;
 }
+.rafetal{
+    display: flex;
+    margin-left: -100vh;
+}
+.point{
+    background-color: #ee1d48;
+    width: 10px;
+    height: 10px;
+    border: #ee1d48 1px solid;
+    border-radius: 15px;
+    margin-top: 300px;
+}
+#point{
+    margin-right: 10px;
+
+}
+.trait{
+    width: 30px;
+    height: 8px;
+    background-color: #ee1d48;
+    border: #ee1d48 1px solid;
+    border-radius: 10Px;
+    margin-top: 300px;
+    margin-left: 10px;
+
+
+}
