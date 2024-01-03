@@ -257,13 +257,18 @@ hr{
 }
 .histoire{
     display: flex;
-    margin-top: 250px;
+    margin-top: 150px;
     padding: 100px;
+}
+.alumni{
+    display: flex;
+    margin-top: 100px;
+    padding: -5vh;
 }
 .video{
     margin-left: 150px;
     height: 300px;
-    width: 400px;
+    width: 500px;
 
 }
 .time{
@@ -277,15 +282,19 @@ hr{
     padding:5px 15px 30px 15px;
   
 }
-#play{
+#play,#play1{
     height: 75px;
     width: 75px;
     opacity: 0.65;
     margin-bottom: 120px;
     margin-left: -250px;
 }
-#apprenant{
+#apprenant,#apprenant1{
     height: 300px;
+}
+#apprenant1{
+    width: 400px;
+
 }
 h4{
     position: absolute;
@@ -303,12 +312,22 @@ h4{
     margin-top: 20px;
     font-weight: bolder;
     font-size: larger;
+    border-top: #ee1d48 7px solid;
 }
 .texte{
-    margin-left: 205px;
+    margin-left: 50px;
     font-size: larger;
     line-height: 1.5;
 }
-.texte h1{
+.texte1{
+    margin-left: 250px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte h1,.texte1 h1{
     color: #ee1d48;
 }
+.formulaire1{
+    margin-left: 100px;
+}
+
