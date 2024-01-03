@@ -254,6 +254,61 @@ hr{
     border-radius: 10Px;
     margin-top: 299px;
     margin-left: 10px;
+}
+.histoire{
+    display: flex;
+    margin-top: 250px;
+    padding: 100px;
+}
+.video{
+    margin-left: 150px;
+    height: 300px;
+    width: 400px;
 
-
+}
+.time{
+    height: 20px;
+    width: 40px;
+    color: #FFF;
+    background-color: #ee1d48;
+    transform: translate(-50%, -50%);
+    margin-top: -70px;
+    margin-left: 350px;
+    padding:5px 15px 30px 15px;
+  
+}
+#play{
+    height: 75px;
+    width: 75px;
+    opacity: 0.65;
+    margin-bottom: 120px;
+    margin-left: -250px;
+}
+#apprenant{
+    height: 300px;
+}
+h4{
+    position: absolute;
+    background-color: #ee1d48;
+    color: #FFF;
+    width: 250px;
+    padding-right: -2vh;
+    padding-left: 5vh;
+    margin-left: -10vh;
+    border: #ee1d48 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.video p:last-child{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.texte{
+    margin-left: 205px;
+    font-size: larger;
+    line-height: 1.5;
+}
+.texte h1{
+    color: #ee1d48;
 }
