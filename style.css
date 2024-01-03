@@ -11,10 +11,10 @@ body {
     font-size: 24px;
     margin-bottom: 40px;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
     text-decoration: none;
-    height: 100px;
-    width: 220px;
+    height: 50px;
+    width: 150px;
 }
 
 nav {
@@ -95,3 +95,138 @@ nav li:last-child a {
     color: white; /* Couleur blanche pour le texte "Contact" */
 }
 
+.section3{
+    display: flex;
+    /* margin-right: 10vh;
+    margin-left: 10vh; */
+    padding-left: 30vh;
+    background-color:#fdf7f8;
+}
+.section3 img{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 1px;
+    width: 25%;
+    border-radius: 30Px;
+
+}
+.texte_numerique{
+    margin-top: 1px;
+    line-height: 1.95;
+    font-weight: bolder;
+    width: 35%;
+}
+.texte_numerique h1{
+    color: #ee1d48;
+}
+.section3 img{
+    height: 500px;
+}
+.even{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10vh;
+    margin-left: 30vh;
+    /* padding-right: 10vh;
+    padding-left: 10vh; */
+}
+.evenement{
+    color: white;
+}
+
+.even1{
+    width: 110vh;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 10px;
+    display: flex;
+    background-color:#ee1d48;
+}
+/* .even1 h5,.even2 h5{
+    margin-left: 10vh;
+} */
+.even2{
+    width: 110vh;
+    padding-top: 2px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-right: 20vh;
+    display: flex;
+    background-color:#ee1d48;
+}
+.mois{
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.date{
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.date p span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.even p{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* .Formateur img{
+    height: 150px;
+    width: 150px;
+    margin-left: 1rem;
+} */
+.Formateur{
+    display: flex;
+    background-color: whitesmoke;
+    padding-left: 100px;
+    padding-right: 30px;
+    height: 100px;
+}
+.formateur1{
+    display: flex;
+}
+/* .Formateur p,.Formateur h1{
+    margin-top: 40px;
+} */
+.fleche{
+    background-color: #fff;
+    padding: 2px;
+}
+button{
+    position: absolute;
+        margin-top: 30vh;
+        margin-left: -3vh;
+        background-color: #ee1d48;
+        color:#fff;
+        border: #ee1d48 1px solid;
+        border-radius: 10px;
+}
+.form{
+    background-color: #fff;
+    margin-top: 50px;
+    border: #fff 1px solid;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30vh;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    background-image: url("19.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+hr{
+    width: 200px;
+    margin-left: 0;
+}
+#formateur1{
+    margin-right: 50px;
+}
